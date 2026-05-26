@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>GitManager</title>
+        <link>https://grim-reaper.github.io/git-manager-appcast/appcast.xml</link>
+        <description>GitManager release feed</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.0.0</title>
+            <pubDate>Tue, 19 May 2026 11:43:35 +0000</pubDate>
+            <sparkle:version>1.0.0</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Release 1.0.0]]></description>
+            <enclosure
+                url="https://github.com/Grim-Reaper/git-manager-appcast/releases/download/v1.0.0/GitManager-1.0.0.zip"
+                length="6530710"
+                type="application/octet-stream"
+                sparkle:edSignature="eDWouLOkGLg6FKgy9nbNenFsQZlt6po7tx0HGBiIcAszt44rbm59SBlGF/AH4oBAhnbmExTwotNm0A4sqDfQCQ==" />
+        </item>
+        <item>
+            <title>Version 1.1.0</title>
+            <pubDate>Mon, 25 May 2026 09:58:37 +0000</pubDate>
+            <sparkle:version>1.1.0</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Highlights since 1.0.0:
+
+- Force Push from the toolbar (split-button on Push) and from the branch context menu, using --force-with-lease.
+- File history popup rendered as a lane graph; file-history is now reachable from the commit-detail file rows via a context menu.
+- Word-level intra-line diff highlighting with a >50% similarity bail-out.
+- Unified Create Branch sheet.
+- Delete + Workspace toolbar buttons; WIP row refreshes after stash ops.
+- Title-bar double-click zoom now survives triple-clicks and rapid retries, handled via a direct NSEvent monitor, and zooms to the full visibleFrame.
+- WIP highway always lives in column 0 with a continuous grey connector to HEAD.
+- Double-click on a branch switches to it again.
+- Discard tracked changes now restores from the implicit index source.
+- Git Graph no longer goes blank during the 60s polling cycle.
+- Clone picker sorts branches by last-activity date and shows it.
+- Repos grouped by namespace folder, sorted alphabetically; faster click latency.
+- Loading state instead of a blank pane while remote lists fetch.]]></description>
+            <enclosure
+                url="https://github.com/Grim-Reaper/git-manager-appcast/releases/download/v1.1.0/GitManager-1.1.0.zip"
+                length="6678338"
+                type="application/octet-stream"
+                sparkle:edSignature="e4I1YFXKS0j7at9Ov/M37FdiHBwRb7Ht+TWxt4kaevRIF10qcInobIruWcw/ZhsZJlMtpwHiXF0fmNchxBtIBA==" />
+        </item>
+    </channel>
+</rss>

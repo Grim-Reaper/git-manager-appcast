@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>GitManager (Nightly)</title>
+        <link>https://grim-reaper.github.io/git-manager-appcast/appcast-nightly.xml</link>
+        <description>GitManager nightly builds — bleeding-edge, may break. Opt in by installing a nightly .app; stable users keep the stable feed.</description>
+        <language>en</language>
+        <item>
+            <title>Nightly 20260525 (c51d47e8)</title>
+            <pubDate>Mon, 25 May 2026 13:35:19 +0000</pubDate>
+            <sparkle:version>1.1.0.3</sparkle:version>
+            <sparkle:shortVersionString>1.1.0-nightly.20260525+c51d47e8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Nightly build from commit c51d47e8 on 20260525. Bleeding-edge, may break.]]></description>
+            <enclosure
+                url="https://github.com/Grim-Reaper/git-manager-appcast/releases/download/nightly-20260525-c51d47e8/GitManager-nightly-20260525-c51d47e8.zip"
+                length="6678785"
+                type="application/octet-stream"
+                sparkle:edSignature="k+I6jfAklvdfzp1et/YTxkiuwuIAzVvsIwBubbZWSfPAnxIkKGCS8oVcozFMbB604ku0Lp+lxNDULdUgCfuLAw==" />
+        </item>
+        <item>
+            <title>Nightly 20260525 (3e4b4a0c)</title>
+            <pubDate>Mon, 25 May 2026 14:32:59 +0000</pubDate>
+            <sparkle:version>1.1.0.5</sparkle:version>
+            <sparkle:shortVersionString>1.1.0-nightly.20260525+3e4b4a0c</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Nightly build from commit 3e4b4a0c on 20260525. Bleeding-edge, may break.]]></description>
+            <enclosure
+                url="https://github.com/Grim-Reaper/git-manager-appcast/releases/download/nightly-20260525-3e4b4a0c/GitManager-nightly-20260525-3e4b4a0c.zip"
+                length="6679053"
+                type="application/octet-stream"
+                sparkle:edSignature="Arb0sXiCa41RQoQ6bWGmBCpK/ys4kP5ng6+YDCGpIH4F3nZw+JV1mjk+5h1E27zZ92YQ4d4toatK7Xx2f5qlBQ==" />
+        </item>
+    </channel>
+</rss>
