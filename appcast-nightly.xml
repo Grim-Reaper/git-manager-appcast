@@ -278,5 +278,18 @@
                 type="application/octet-stream"
                 sparkle:edSignature="K6r7Bepgt5tKnfZxLjv64bzUUUwMpNU3vAwVW4cjTWnfpn3rFrvZ/Ut3KzD3rpqsk80KaE62BL+BHqSZ95/VCA==" />
         </item>
+        <item>
+            <title>Nightly 20260626 (c894f56c)</title>
+            <pubDate>Fri, 26 Jun 2026 14:32:01 +0000</pubDate>
+            <sparkle:version>1.2.0.33</sparkle:version>
+            <sparkle:shortVersionString>1.2.0-nightly.20260626+c894f56c</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Nightly build from commit c894f56c on 20260626. Bleeding-edge, may break.]]></description>
+            <enclosure
+                url="https://github.com/Grim-Reaper/git-manager-appcast/releases/download/nightly-20260626-c894f56c/GitManager-nightly-20260626-c894f56c.zip"
+                length="9915452"
+                type="application/octet-stream"
+                sparkle:edSignature="s2x0JyTFFmYJxmWzNx9VRuUHD2RaQ6/aKikj9+WiNOeLb3lD3pBUaWLggh5iKLYY28VtEmQG0VkHX6iDthwLAQ==" />
+        </item>
     </channel>
 </rss>
