@@ -77,5 +77,37 @@
                 type="application/octet-stream"
                 sparkle:edSignature="FrDCSItSl58invvwl4SQYfxi+Z4NgZLTlRAoBW1uoiBT4LtaZAcaT/mIaOlRWaeCkdXSExPh10qi5InSKW5tCQ==" />
         </item>
+        <item>
+            <title>Version 1.3.0</title>
+            <pubDate>Wed, 08 Jul 2026 15:24:31 +0000</pubDate>
+            <sparkle:version>1.3.0</sparkle:version>
+            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>New in 1.3.0</h3>
+<ul>
+<li><b>Hosting console</b> — a new Hosting sidebar for your connected accounts: create repositories in three modes, browse repositories, and manage groups and members.</li>
+<li><b>People</b> — a People screen backed by a cached, searchable user directory, with per-user detail pages and a contribution heatmap. Find people from global search and deep-link straight to their page.</li>
+<li><b>Reviewers &amp; participants</b> — pull request detail now shows reviewers and their approval states; commit details show participants and the committer, with co-author badges in the graph.</li>
+<li><b>Create requests from the graph</b> — open a pull/merge request straight from the commit graph's context menu.</li>
+<li><b>Copy URL</b> — copy a pull request's web address from its detail header.</li>
+<li><b>Clean up merged branches</b> — a toolbar popup to remove merged branches, including those whose upstream is gone.</li>
+<li><b>Editor</b> — a no-wrap toggle and syntax highlighting; copy a branch or tag name from the commit row menu.</li>
+<li><b>Graph context menus</b> — dedicated menus for the uncommitted-changes row and for stashes (pop / apply / drop).</li>
+<li><b>Automation</b> — hosting management and user activity are now exposed over the embedded MCP server.</li>
+</ul>
+<h3>Fixes &amp; polish</h3>
+<ul>
+<li>Fixed several crashes in the branch and commit lists (List diffing, atomic refresh, and a pull-time crash).</li>
+<li>origin/HEAD no longer poses as a local branch and detaches HEAD.</li>
+<li>The editor no longer blanks when wrapping and syntax highlighting are both on.</li>
+<li>Add/delete stats no longer overlap in file-change rows.</li>
+<li>Ref pill right-click menus now take precedence over the graph's table-wide menu.</li>
+</ul>]]></description>
+            <enclosure
+                url="https://github.com/Grim-Reaper/git-manager-appcast/releases/download/v1.3.0/GitManager-1.3.0.zip"
+                length="10917040"
+                type="application/octet-stream"
+                sparkle:edSignature="WQ2wP2RyAKMsLZ6+5bfrV3RRfOcERtF7xAuj3mcZ9KkN5pZVM6JN2v5aRFTOybdiuxkQ+9EfCpGUOfRwRvk+CQ==" />
+        </item>
     </channel>
 </rss>
