@@ -694,5 +694,18 @@
                 type="application/octet-stream"
                 sparkle:edSignature="l0cD0eSCbMVr6ZAcg4ZZoT9xRcRYCF44m41pPEMAW4EJFkg0cnBuCYpmxrdz5bR6ggp/h7kybTrNni23X+fDCg==" />
         </item>
+        <item>
+            <title>Nightly 20260808 (db0323d5)</title>
+            <pubDate>Sat, 08 Aug 2026 14:32:01 +0000</pubDate>
+            <sparkle:version>1.3.0.37</sparkle:version>
+            <sparkle:shortVersionString>1.3.0-nightly.20260808+db0323d5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Nightly build from commit db0323d5 on 20260808. Bleeding-edge, may break.]]></description>
+            <enclosure
+                url="https://github.com/Grim-Reaper/git-manager-appcast/releases/download/nightly-20260808-db0323d5/GitManager-nightly-20260808-db0323d5.zip"
+                length="11118105"
+                type="application/octet-stream"
+                sparkle:edSignature="cp0h5wpY/StF60r4AtR2yotfZLTlh8LGsj5Jij//9S1UMlJmAqrMUSPvVYpv8eitoSRpiWff4whrtZMrZtGTAw==" />
+        </item>
     </channel>
 </rss>
